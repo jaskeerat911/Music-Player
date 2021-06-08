@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="./style.css">
+    <title>Music Player</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="music-player">
+            <div class="options-container">
+                <!-- <div class="options active">
+                    <div class="material-icons option-icon" id="open-close">arrow_circle_down</div>
+                    <div class="material-icons option-icon" id="now-playing">play_circle_filled</div>
+                    <div class="material-icons option-icon" id="music-list">queue_music</div>
+                    <div class="material-icons option-icon" id="playlist">playlist_play</div>
+                </div> -->
+                <div class="options">
+                    <div class="option" id="open-close">
+                        <div class="material-icons icons" id="open-close-icon">arrow_circle_down</div>
+                        <!-- <div class="option-title">Close</div> -->
+                        
+                    </div>
+                    <div class="option" id="now-playing">
+                        <div class="material-icons icons" >play_circle_filled</div>
+                        <!-- <div class="option-title">Now Playing</div> -->
+                    </div>
+                    <div class="option" id="music-list">
+                        <div class="material-icons icons">queue_music</div>
+                        <!-- <div class="option-title">Music</div> -->
+                    </div>
+                    <div class="option" id="playlist">
+                        <div class="material-icons icons">playlist_play</div>
+                        <!-- <div class="option-title">PlayList</div> -->
+                    </div>
+                </div>
+            </div>
+            <div class="music-player-container">
+                <div class="main-player music-player-visibility active">
+                    <div class="music-image">
+                        <img src="">
+                    </div>
+                </div>
+                <div class="music-list-container music-player-visibility ">
+                    <div class="music-list-heading">Music</div>
+                    <div class="music-list">
+                    </div>
+                </div>
+
+                <div class="music-playlist-container music-player-visibility ">
+                    <div class="music-list-heading">PlayList</div>
+                    <div class="playlist">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="controls-container">
+            <div class="song-title-container">
+                <div class="song-img">
+                    <img src="">
+                </div>
+                <div class="song-detail">
+                    <div class="song-title"></div>
+                    <div class="song-artist"></div>
+                </div>
+            </div>
+            <div class="controls">
+                <div class="material-icons control-icons" id="previous">skip_previous</div>
+                <div class="material-icons control-icons" id="play-pause">play_arrow</div>
+                <div class="material-icons control-icons" id="next">skip_next</div>
+                <div id="current-time" class="song-timing">0:00</div>
+                <div class="song-slider-container">
+                    <input type="range" min="0" max="100" value="0" class="song-slider">
+                    <div id="song-progress-bar"></div>
+                </div>
+                <div id="total-time" class="song-timing">0:00</div>
+                <div class="material-icons control-icons" id="add-to-playlist">favorite</div>
+            </div>
+            <div class="song-volume">
+                <div class="material-icons volume-icon">volume_up</div>
+                <div class="volume-container">
+                    <div class="material-icons mute-icon ">volume_off</div>
+                    <div class="volume">
+                        <input type="range" min="0" max="100" value="100" class="volume-slider">
+                        <div id="volume-progress-bar"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <script src="./allSongs.json"></script>
+    <script src="./script.js"></script>
+</body>
+
+</html>

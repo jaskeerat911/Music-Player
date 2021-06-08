@@ -1,0 +1,506 @@
+data = [
+  {
+    "SongIdx": 0,
+    "Artwork": "http://pagalworldcom.com/siteuploads/thumb/c/11457_3.jpg",
+    "Title": "Bullet - Karan Bawa",
+    "Link": "http://pagalworldcom.com/files/download/id/52175",
+    "addToPlaylist": false
+  },
+  {
+    "SongIdx": 1,
+    "Artwork": "http://pagalworldcom.com/siteuploads/thumb/c/11456_3.jpg",
+    "Title": "Cinderella - Anushka Gupta",
+    "Link": "http://pagalworldcom.com/files/download/id/52172",
+    "addToPlaylist": false
+  },
+  {
+    "SongIdx": 2,
+    "Artwork": "http://pagalworldcom.com/siteuploads/thumb/c/11455_3.jpg",
+    "Title": "Malwe Da Jatt - Amana",
+    "Link": "http://pagalworldcom.com/files/download/id/52169",
+    "addToPlaylist": false
+  },
+  {
+    "SongIdx": 3,
+    "Artwork": "http://pagalworldcom.com/siteuploads/thumb/c/11446_3.jpg",
+    "Title": "Ki Tusi Jande O - Deep Chahal n Singga",
+    "Link": "http://pagalworldcom.com/files/download/id/52144",
+    "addToPlaylist": false
+  },
+  {
+    "SongIdx": 5,
+    "Artwork": "http://pagalworldcom.com/siteuploads/thumb/c/11445_3.jpg",
+    "Title": "Balcony - Romey Maan",
+    "Link": "http://pagalworldcom.com/files/download/id/52141",
+    "addToPlaylist": false
+  },
+  {
+    "SongIdx": 6,
+    "Artwork": "http://pagalworldcom.com/siteuploads/thumb/c/11444_3.jpg",
+    "Title": "Pindan De Naa - Arjan Dhillon",
+    "Link": "http://pagalworldcom.com/files/download/id/52138",
+    "addToPlaylist": false
+  },
+  {
+    "SongIdx": 7,
+    "Artwork": "http://pagalworldcom.com/siteuploads/thumb/c/11443_3.jpg",
+    "Title": "Brown Shortie - Sidhu Moose Wala",
+    "Link": "http://pagalworldcom.com/files/download/id/52135",
+    "addToPlaylist": false
+  },
+  {
+    "SongIdx": 8,
+    "Artwork": "http://pagalworldcom.com/siteuploads/thumb/c/11442_3.jpg",
+    "Title": "Volcano - Joban Sandhu",
+    "Link": "http://pagalworldcom.com/files/download/id/52132",
+    "addToPlaylist": false
+  },
+  {
+    "SongIdx": 9,
+    "Artwork": "http://pagalworldcom.com/siteuploads/thumb/c/11441_3.jpg",
+    "Title": "Fikar Kari Na Ammiye - Ranjit Bawa",
+    "Link": "http://pagalworldcom.com/files/download/id/52129",
+    "addToPlaylist": false
+  },
+  {
+    "SongIdx": 10,
+    "Artwork": "http://pagalworldcom.com/siteuploads/thumb/c/11437_3.jpg",
+    "Title": "Zindgi Aa Veere - Balli Rajgarhia n Kauri Jhamat",
+    "Link": "http://pagalworldcom.com/files/download/id/52116",
+    "addToPlaylist": false
+  },
+  {
+    "SongIdx": 11,
+    "Artwork": "http://pagalworldcom.com/siteuploads/thumb/c/11436_3.jpg",
+    "Title": "Brown Munde Freestyle - MK n Stretch DCM",
+    "Link": "http://pagalworldcom.com/files/download/id/52113",
+    "addToPlaylist": false
+  },
+  {
+    "SongIdx": 12,
+    "Artwork": "http://pagalworldcom.com/siteuploads/thumb/c/11435_3.jpg",
+    "Title": "Butter Chicken Butter Nan - Sikander Kahlon",
+    "Link": "http://pagalworldcom.com/files/download/id/52110",
+    "addToPlaylist": false
+  },
+  {
+    "SongIdx": 13,
+    "Artwork": "http://pagalworldcom.com/siteuploads/thumb/c/11434_3.jpg",
+    "Title": "Gallan - Prodgk",
+    "Link": "http://pagalworldcom.com/files/download/id/52107",
+    "addToPlaylist": false
+  },
+  {
+    "SongIdx": 14,
+    "Artwork": "http://pagalworldcom.com/siteuploads/thumb/c/11433_3.jpg",
+    "Title": "Karha 2 - Honey Sidhu",
+    "Link": "http://pagalworldcom.com/files/download/id/52104",
+    "addToPlaylist": false
+  },
+  {
+    "SongIdx": 15,
+    "Artwork": "http://pagalworldcom.com/siteuploads/thumb/c/11432_3.jpg",
+    "Title": "80-90 Te - Garry Sandhu n Amrit Maan",
+    "Link": "http://pagalworldcom.com/files/download/id/52101",
+    "addToPlaylist": false
+  },
+  {
+    "SongIdx": 16,
+    "Artwork": "http://pagalworldcom.com/siteuploads/thumb/c/11431_3.jpg",
+    "Title": "Moosedrilla - Sidhu Moose Wala n Divine",
+    "Link": "http://pagalworldcom.com/files/download/id/52098",
+    "addToPlaylist": false
+  },
+  {
+    "SongIdx": 17,
+    "Artwork": "http://pagalworldcom.com/siteuploads/thumb/c/11430_3.jpg",
+    "Title": "Friendship - Preity Thukral",
+    "Link": "http://pagalworldcom.com/files/download/id/52095",
+    "addToPlaylist": false
+  },
+  {
+    "SongIdx": 18,
+    "Artwork": "http://pagalworldcom.com/siteuploads/thumb/c/11429_3.jpg",
+    "Title": "Checkmate - Amaninder Billing",
+    "Link": "http://pagalworldcom.com/files/download/id/52092",
+    "addToPlaylist": false
+  },
+  {
+    "SongIdx": 19,
+    "Artwork": "http://pagalworldcom.com/siteuploads/thumb/c/11428_3.jpg",
+    "Title": "Taani Yaaran Di 2 - G Deep",
+    "Link": "http://pagalworldcom.com/files/download/id/52089",
+    "addToPlaylist": false
+  },
+  {
+    "SongIdx": 20,
+    "Artwork": "http://pagalworldcom.com/siteuploads/thumb/c/11427_3.jpg",
+    "Title": "Andata - Sukhvir Bajwa",
+    "Link": "http://pagalworldcom.com/files/download/id/52086",
+    "addToPlaylist": false
+  },
+  {
+    "SongIdx": 21,
+    "Artwork": "http://pagalworldcom.com/siteuploads/thumb/c/11420_3.jpg",
+    "Title": "Rabba Ve - Armaan Bedil n Dhanshri Dev",
+    "Link": "http://pagalworldcom.com/files/download/id/52065",
+    "addToPlaylist": false
+  },
+  {
+    "SongIdx": 22,
+    "Artwork": "http://pagalworldcom.com/siteuploads/thumb/c/11419_3.jpg",
+    "Title": "Challa - R Nait",
+    "Link": "http://pagalworldcom.com/files/download/id/52062",
+    "addToPlaylist": false
+  },
+  {
+    "SongIdx": 23,
+    "Artwork": "http://pagalworldcom.com/siteuploads/thumb/c/11418_3.jpg",
+    "Title": "Jerhe Shadd Gye - Veer Sandhu",
+    "Link": "http://pagalworldcom.com/files/download/id/52059",
+    "addToPlaylist": false
+  },
+  {
+    "SongIdx": 24,
+    "Artwork": "http://pagalworldcom.com/siteuploads/thumb/c/11417_3.jpg",
+    "Title": "Nakaam Mohabbat - Navi Bawa",
+    "Link": "http://pagalworldcom.com/files/download/id/52056",
+    "addToPlaylist": false
+  },
+  {
+    "SongIdx": 25,
+    "Artwork": "http://pagalworldcom.com/siteuploads/thumb/c/11416_3.jpg",
+    "Title": "Approach - Raja Game Changerz n Ravi Warraich",
+    "Link": "http://pagalworldcom.com/files/download/id/52053",
+    "addToPlaylist": false
+  },
+  {
+    "SongIdx": 26,
+    "Artwork": "http://pagalworldcom.com/siteuploads/thumb/c/11415_3.jpg",
+    "Title": "Yaar Refugee - Harpreet Kalewal",
+    "Link": "http://pagalworldcom.com/files/download/id/52050",
+    "addToPlaylist": false
+  },
+  {
+    "SongIdx": 27,
+    "Artwork": "http://pagalworldcom.com/siteuploads/thumb/c/11414_3.jpg",
+    "Title": "Befikra - Ninja",
+    "Link": "http://pagalworldcom.com/files/download/id/52047",
+    "addToPlaylist": false
+  },
+  {
+    "SongIdx": 28,
+    "Artwork": "http://pagalworldcom.com/siteuploads/thumb/c/11413_3.jpg",
+    "Title": "Raataan - Navreet",
+    "Link": "http://pagalworldcom.com/files/download/id/52044",
+    "addToPlaylist": false
+  },
+  {
+    "SongIdx": 29,
+    "Artwork": "http://pagalworldcom.com/siteuploads/thumb/c/11412_3.jpg",
+    "Title": "Tere Bina - Happe Singh",
+    "Link": "http://pagalworldcom.com/files/download/id/52041",
+    "addToPlaylist": false
+  },
+  {
+    "SongIdx": 30,
+    "Artwork": "http://pagalworldcom.com/siteuploads/thumb/c/11411_3.jpg",
+    "Title": "Akhiyan - Harnav Brar",
+    "Link": "http://pagalworldcom.com/files/download/id/52038",
+    "addToPlaylist": false
+  },
+  {
+    "SongIdx": 31,
+    "Artwork": "http://pagalworldcom.com/siteuploads/thumb/c/11410_3.jpg",
+    "Title": "Greedy Folks - Hardeep Gill",
+    "Link": "http://pagalworldcom.com/files/download/id/52035",
+    "addToPlaylist": false
+  },
+  {
+    "SongIdx": 32,
+    "Artwork": "http://pagalworldcom.com/siteuploads/thumb/c/11408_3.jpg",
+    "Title": "Baaz Wali Akh - Taaj Singh",
+    "Link": "http://pagalworldcom.com/files/download/id/52028",
+    "addToPlaylist": false
+  },
+  {
+    "SongIdx": 33,
+    "Artwork": "http://pagalworldcom.com/siteuploads/thumb/c/11407_3.jpg",
+    "Title": "Baapu - Amar Sandhu",
+    "Link": "http://pagalworldcom.com/files/download/id/52025",
+    "addToPlaylist": false
+  },
+  {
+    "SongIdx": 34,
+    "Artwork": "http://pagalworldcom.com/siteuploads/thumb/c/11406_3.jpg",
+    "Title": "Yaraane - Gur Sidhu",
+    "Link": "http://pagalworldcom.com/files/download/id/52022",
+    "addToPlaylist": false
+  },
+  {
+    "SongIdx": 35,
+    "Artwork": "http://pagalworldcom.com/siteuploads/thumb/c/11405_3.jpg",
+    "Title": "Alcohol - Mintu Dhuri",
+    "Link": "http://pagalworldcom.com/files/download/id/52019",
+    "addToPlaylist": false
+  },
+  {
+    "SongIdx": 36,
+    "Artwork": "http://pagalworldcom.com/siteuploads/thumb/c/11404_3.jpg",
+    "Title": "Dil Di Gal - Feroz Khan n Kanth Kaler",
+    "Link": "http://pagalworldcom.com/files/download/id/52016",
+    "addToPlaylist": false
+  },
+  {
+    "SongIdx": 37,
+    "Artwork": "http://pagalworldcom.com/siteuploads/thumb/c/11403_3.jpg",
+    "Title": "Salaama - Hardeep Grewal",
+    "Link": "http://pagalworldcom.com/files/download/id/52013",
+    "addToPlaylist": false
+  },
+  {
+    "SongIdx": 38,
+    "Artwork": "http://pagalworldcom.com/siteuploads/thumb/c/11402_3.jpg",
+    "Title": "Tere Naa Utte - Harvy Sandhu",
+    "Link": "http://pagalworldcom.com/files/download/id/52010",
+    "addToPlaylist": false
+  },
+  {
+    "SongIdx": 39,
+    "Artwork": "http://pagalworldcom.com/siteuploads/thumb/c/11401_3.jpg",
+    "Title": "Qurbaan - Harry Mathoda",
+    "Link": "http://pagalworldcom.com/files/download/id/52007",
+    "addToPlaylist": false
+  },
+  {
+    "SongIdx": 40,
+    "Artwork": "http://pagalworldcom.com/siteuploads/thumb/c/11400_3.jpg",
+    "Title": "Ro Len De - Deep Fateh",
+    "Link": "http://pagalworldcom.com/files/download/id/52004",
+    "addToPlaylist": false
+  },
+  {
+    "SongIdx": 41,
+    "Artwork": "http://pagalworldcom.com/siteuploads/thumb/c/11399_3.jpg",
+    "Title": "Cuff - Bunny Johal",
+    "Link": "http://pagalworldcom.com/files/download/id/52001",
+    "addToPlaylist": false
+  },
+  {
+    "SongIdx": 42,
+    "Artwork": "http://pagalworldcom.com/siteuploads/thumb/c/11398_3.jpg",
+    "Title": "Kitabaan Vich - Dixi n Twinbeatz",
+    "Link": "http://pagalworldcom.com/files/download/id/51998",
+    "addToPlaylist": false
+  },
+  {
+    "SongIdx": 43,
+    "Artwork": "http://pagalworldcom.com/siteuploads/thumb/c/11397_3.jpg",
+    "Title": "Fix This - Raxstar n Raashi Sood",
+    "Link": "http://pagalworldcom.com/files/download/id/51995",
+    "addToPlaylist": false
+  },
+  {
+    "SongIdx": 44,
+    "Artwork": "http://pagalworldcom.com/siteuploads/thumb/c/11396_3.jpg",
+    "Title": "Ajj Da Punjab - Sarbjit Cheema",
+    "Link": "http://pagalworldcom.com/files/download/id/51992",
+    "addToPlaylist": false
+  },
+  {
+    "SongIdx": 45,
+    "Artwork": "http://pagalworldcom.com/siteuploads/thumb/c/11395_3.jpg",
+    "Title": "Gold Di Dabbi - Kirat Sandhu n Sargi",
+    "Link": "http://pagalworldcom.com/files/download/id/51989",
+    "addToPlaylist": false
+  },
+  {
+    "SongIdx": 46,
+    "Artwork": "http://pagalworldcom.com/siteuploads/thumb/c/11394_3.jpg",
+    "Title": "Rabba Ve - Armaan Bedil",
+    "Link": "http://pagalworldcom.com/files/download/id/51986",
+    "addToPlaylist": false
+  },
+  {
+    "SongIdx": 47,
+    "Artwork": "http://pagalworldcom.com/siteuploads/thumb/c/11391_3.jpg",
+    "Title": "Russe Tu - Ishan Kouran",
+    "Link": "http://pagalworldcom.com/files/download/id/51977",
+    "addToPlaylist": false
+  },
+  {
+    "SongIdx": 48,
+    "Artwork": "http://pagalworldcom.com/siteuploads/thumb/c/11390_3.jpg",
+    "Title": "Maybelline - Pirti Silon",
+    "Link": "http://pagalworldcom.com/files/download/id/51974",
+    "addToPlaylist": false
+  },
+  {
+    "SongIdx": 49,
+    "Artwork": "http://pagalworldcom.com/siteuploads/thumb/c/11389_3.jpg",
+    "Title": "Khayaal - Bambi Bains",
+    "Link": "http://pagalworldcom.com/files/download/id/51971",
+    "addToPlaylist": false
+  },
+  {
+    "SongIdx": 50,
+    "Artwork": "http://pagalworldcom.com/siteuploads/thumb/c/11388_3.jpg",
+    "Title": "Vailpuna - Ginda Randhawa",
+    "Link": "http://pagalworldcom.com/files/download/id/51968",
+    "addToPlaylist": false
+  },
+  {
+    "SongIdx": 51,
+    "Artwork": "http://pagalworldcom.com/siteuploads/thumb/c/11387_3.jpg",
+    "Title": "Weed - Vipul Kapoor",
+    "Link": "http://pagalworldcom.com/files/download/id/51965",
+    "addToPlaylist": false
+  },
+  {
+    "SongIdx": 52,
+    "Artwork": "http://pagalworldcom.com/siteuploads/thumb/c/11386_3.jpg",
+    "Title": "Goli Wargi - Sandeep",
+    "Link": "http://pagalworldcom.com/files/download/id/51962",
+    "addToPlaylist": false
+  },
+  {
+    "SongIdx": 53,
+    "Artwork": "http://pagalworldcom.com/siteuploads/thumb/c/11385_3.jpg",
+    "Title": "Haqdaar - Arpan Bawa",
+    "Link": "http://pagalworldcom.com/files/download/id/51959",
+    "addToPlaylist": false
+  },
+  {
+    "SongIdx": 54,
+    "Artwork": "http://pagalworldcom.com/siteuploads/thumb/c/11384_3.jpg",
+    "Title": "Kudi Himachal Di - Bunty Jaja",
+    "Link": "http://pagalworldcom.com/files/download/id/51956",
+    "addToPlaylist": false
+  },
+  {
+    "SongIdx": 55,
+    "Artwork": "http://pagalworldcom.com/siteuploads/thumb/c/11383_3.jpg",
+    "Title": "Hanju - Diljaan",
+    "Link": "http://pagalworldcom.com/files/download/id/51953",
+    "addToPlaylist": false
+  },
+  {
+    "SongIdx": 56,
+    "Artwork": "http://pagalworldcom.com/siteuploads/thumb/c/11382_3.jpg",
+    "Title": "Parche - Gurlez Akhtar n Jagan Sidhu",
+    "Link": "http://pagalworldcom.com/files/download/id/51950",
+    "addToPlaylist": false
+  },
+  {
+    "SongIdx": 57,
+    "Artwork": "http://pagalworldcom.com/siteuploads/thumb/c/11381_3.jpg",
+    "Title": "Cutie Pie - Amit Mishra",
+    "Link": "http://pagalworldcom.com/files/download/id/51947",
+    "addToPlaylist": false
+  },
+  {
+    "SongIdx": 58,
+    "Artwork": "http://pagalworldcom.com/siteuploads/thumb/c/11378_3.jpg",
+    "Title": "Qatal - Gurlez Akhtar n Manavgeet Gill",
+    "Link": "http://pagalworldcom.com/files/download/id/51936",
+    "addToPlaylist": false
+  },
+  {
+    "SongIdx": 59,
+    "Artwork": "http://pagalworldcom.com/siteuploads/thumb/c/11377_3.jpg",
+    "Title": "Hokka - Jass Bajwa",
+    "Link": "http://pagalworldcom.com/files/download/id/51933",
+    "addToPlaylist": false
+  },
+  {
+    "SongIdx": 60,
+    "Artwork": "http://pagalworldcom.com/siteuploads/thumb/c/11376_3.jpg",
+    "Title": "Nasha - Simar Doraha",
+    "Link": "http://pagalworldcom.com/files/download/id/51930",
+    "addToPlaylist": false
+  },
+  {
+    "SongIdx": 61,
+    "Artwork": "http://pagalworldcom.com/siteuploads/thumb/c/11434_3.jpg",
+    "Title": "Gallan - Prodgk",
+    "Link": "http://pagalworldcom.com/files/download/id/52107",
+    "addToPlaylist": false
+  },
+  {
+    "SongIdx": 62,
+    "Artwork": "http://pagalworldcom.com/siteuploads/thumb/c/11433_3.jpg",
+    "Title": "Karha 2 - Honey Sidhu",
+    "Link": "http://pagalworldcom.com/files/download/id/52104",
+    "addToPlaylist": false
+  },
+  {
+    "SongIdx": 63,
+    "Artwork": "http://pagalworldcom.com/siteuploads/thumb/c/11432_3.jpg",
+    "Title": "80-90 Te - Garry Sandhu n Amrit Maan",
+    "Link": "http://pagalworldcom.com/files/download/id/52101",
+    "addToPlaylist": false
+  },
+  {
+    "SongIdx": 64,
+    "Artwork": "http://pagalworldcom.com/siteuploads/thumb/c/11431_3.jpg",
+    "Title": "Moosedrilla - Sidhu Moose Wala n Divine",
+    "Link": "http://pagalworldcom.com/files/download/id/52098",
+    "addToPlaylist": false
+  },
+  {
+    "SongIdx": 65,
+    "Artwork": "http://pagalworldcom.com/siteuploads/thumb/c/11430_3.jpg",
+    "Title": "Friendship - Preity Thukral",
+    "Link": "http://pagalworldcom.com/files/download/id/52095",
+    "addToPlaylist": false
+  },
+  {
+    "SongIdx": 66,
+    "Artwork": "http://pagalworldcom.com/siteuploads/thumb/c/11429_3.jpg",
+    "Title": "Checkmate - Amaninder Billing",
+    "Link": "http://pagalworldcom.com/files/download/id/52092",
+    "addToPlaylist": false
+  },
+  {
+    "SongIdx": 67,
+    "Artwork": "http://pagalworldcom.com/siteuploads/thumb/c/11428_3.jpg",
+    "Title": "Taani Yaaran Di 2 - G Deep",
+    "Link": "http://pagalworldcom.com/files/download/id/52089",
+    "addToPlaylist": false
+  },
+  {
+    "SongIdx": 68,
+    "Artwork": "http://pagalworldcom.com/siteuploads/thumb/c/11427_3.jpg",
+    "Title": "Andata - Sukhvir Bajwa",
+    "Link": "http://pagalworldcom.com/files/download/id/52086",
+    "addToPlaylist": false
+  },
+  {
+    "SongIdx": 69,
+    "Artwork": "http://pagalworldcom.com/siteuploads/thumb/c/11420_3.jpg",
+    "Title": "Rabba Ve - Armaan Bedil n Dhanshri Dev",
+    "Link": "http://pagalworldcom.com/files/download/id/52065",
+    "addToPlaylist": false
+  },
+  {
+    "SongIdx": 70,
+    "Artwork": "http://pagalworldcom.com/siteuploads/thumb/c/11419_3.jpg",
+    "Title": "Challa - R Nait",
+    "Link": "http://pagalworldcom.com/files/download/id/52062",
+    "addToPlaylist": false
+  },
+  {
+    "SongIdx": 71,
+    "Artwork": "http://pagalworldcom.com/siteuploads/thumb/c/11418_3.jpg",
+    "Title": "Jerhe Shadd Gye - Veer Sandhu",
+    "Link": "http://pagalworldcom.com/files/download/id/52059",
+    "addToPlaylist": false
+  },
+  {
+    "SongIdx": 72,
+    "Artwork": "http://pagalworldcom.com/siteuploads/thumb/c/11417_3.jpg",
+    "Title": "Nakaam Mohabbat - Navi Bawa",
+    "Link": "http://pagalworldcom.com/files/download/id/52056",
+    "addToPlaylist": false
+  }
+];
